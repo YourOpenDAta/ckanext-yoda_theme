@@ -1,0 +1,14 @@
+# yoda_theme-js:
+#   filter: rjsmin
+#   output: ckanext-yoda_theme/%(version)s-yoda_theme.js
+#   contents:
+#     - js/yoda_theme.js
+#   extra:
+#     preload:
+#       - base/main
+
+# yoda_theme-css:
+#   filter: cssrewrite
+#   output: ckanext-yoda_theme/%(version)s-yoda_theme.css
+#   contents:
+#     - css/yoda_theme.css
