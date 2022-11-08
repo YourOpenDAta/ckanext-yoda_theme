@@ -1,0 +1,70 @@
+.navbar
+    background: white !important
+    color: #333333 !important
+    padding-bottom: 8rem !important
+    border: none !important
+
+    .container
+        #main-navigation-toggle
+            width: calc(100% - 24%)
+
+            @media (max-width: 1198px)
+                width: calc(100% - 18%)
+
+            .site-search
+                float: right !important
+
+            .navigation
+                float: left !important
+
+                ul
+                    background-color: none !important
+                    background: none !important
+                    
+                    li
+                        background-color: none !important
+                        background: none !important
+
+                        &.active
+                            color: #333333 !important
+                            border-radius: 2px !important
+
+                            a
+                                background-color: #ECF1F5 !important
+                                border-radius: 2px !important
+                                font-weight: 600 !important
+
+                        a
+                            color: #333333
+                            font-weight: 500 !important
+                            padding: 8px 16px !important
+                            border-radius: 2px !important
+                            transition: background-color 0.2s ease-in
+
+                            &:hover
+                                color: #333333 !important
+                                background: #ECF1F5 !important
+                                border-radius: 2px !important
+
+            form
+                font-family: 'Roboto', sans-serif
+
+                #field-sitewide-search
+                    padding: .5rem 1rem
+                    border: 1px solid #333333 !important
+                    border-radius: 2px !important
+                    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+
+                    &::placeholder
+                        color: #8B8B8B !important
+
+                    &:focus
+                        box-shadow: 0px 0px 0px 4px rgba(199, 213, 224, 1) !important
+                        transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+
+                .field
+                    .btn-search
+                        color: #8B8B8B !important
+
+                        &:hover
+                            color: #333333 !important

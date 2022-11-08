@@ -1,0 +1,228 @@
+.main
+    background: white !important
+    
+    @media (min-width: 768px)
+        background: white !important
+
+    #content
+
+        // TOOLBAR
+        .toolbar
+            ol
+                li
+                    a
+                        color: #333 !important
+
+                        i
+                            display: none !important
+                        
+                        span
+                            display: inline-block
+
+                
+                .active
+                    a
+                        color: #13365C !important
+        
+        //WRAPPER
+        .wrapper
+            border: none !important
+            box-shadow: none !important
+
+            &.module
+                margin-bottom: 2rem !important
+            
+            // ASIDE DE FILTROS
+            .secondary 
+                .filters
+                    .module
+                        .module-heading
+                            background-color: white !important
+                            color: #333333 !important
+                            font-size: 1.60rem !important
+                            border: none !important
+                        
+                        p
+                            font-family: 'Roboto', sans-serif
+                            color: #acacac !important
+                            margin-left: 2rem !important
+                        
+                        nav
+                            margin-left: 2rem !important
+
+                            ul
+                                .nav-item
+                                    border: none !important
+
+                                    a
+                                        display: flex
+                                        align-items: baseline
+                                        border-radius: 2px !important
+
+                                        &:hover
+                                            background-color: #ECF1F5 !important
+                                        
+                                        &::after
+                                            display: none !important
+                                        
+                                        .item-label
+                                            font-family: 'Roboto', sans-serif
+                                            color: #333333 !important
+                                            margin-right: .85rem !important
+                                        
+                                        .item-count
+                                            font-family: 'Roboto', sans-serif
+                                            font-weight: 500 !important
+                                            text-align: center
+                                            color: #333333 !important
+                                        
+                                        .badge
+                                            background-color: #C7D5E0 !important
+                                            padding: 4px 7px
+                                            border-radius: 100% !important
+                                
+                                .active
+                                    a
+                                        background-color: #ECF1F5 !important
+
+                                        &::before
+                                            border-left-color: #ECF1F5 !important
+                                        
+                                        .item-label
+                                            font-weight: 500 !important
+            
+            // CONTENIDO PRINCIPAL
+            .primary
+                .module
+                    .module-content
+                        padding-top: 0 !important
+
+                    .search-form
+                        border-bottom: 1px solid #D1D1D1 !important
+
+                        // BUSCADOR
+                        .input-group
+                            position: relative
+                            width: 100% !important
+                            border: none !important
+                            margin-bottom: 3.35rem !important
+
+                            .form-control
+                                width: 100% !important
+                                border: 1px solid #333333
+                                border-radius: 2px
+                                font-family: 'Roboto', sans-serif !important
+                                font-size: 14px !important
+                                padding: 10px 10px 8px 10px !important
+                                color: #8B8B8B !important
+                                box-shadow: none !important
+                                z-index: 8
+
+                                &.input-lg
+                                    border: 1px solid #333333
+                                    height: fit-content !important
+                                    width: 100%
+
+                                &:focus
+                                    box-shadow: 0px 0px 0px 4px rgba(199, 213, 224, 1) !important
+                                    border-radius: 2px !important
+                        
+                            .input-group-btn
+                                background-color: transparent !important
+                                z-index: 9
+                                position: absolute
+                                top: .15rem
+                                right: 3.5rem
+                                
+                                .btn
+                                    border: 0 !important
+                                    padding: 5px 10px !important
+                                    color: #8B8B8B !important
+                                    background-color: transparent !important
+                                    transition: color 0.2s ease-in
+
+                                    &:hover
+                                        background-color: transparent !important
+                                        color: #333333 !important
+
+                    h1
+                        font-family: 'Roboto', sans-serif !important
+                        font-size: 18px !important
+                        color: #333333 !important
+                    
+                    // FILTROS
+                    .form-select
+                        #field-order-by
+                            border: 1px solid #333333 !important
+                            border-radius: 2px !important
+                            box-shadow: none !important
+                            padding: 7px 10px 5px 10px !important
+                            font-family: 'Roboto', sans-serif
+                            color: #8B8B8B !important
+                            
+                            &:focus
+                                box-shadow: 0px 0px 0px 4px rgba(199, 213, 224, 1) !important
+
+                    .filter-list
+                        .facet
+                        .pill
+                            font-family: 'Roboto', sans-serif !important
+                            font-weight: 500 !important
+                            background-color: #C7D5E0
+                            color: #333333 !important
+                            border: 0!important
+
+                            a
+                                font-weight: normal !important
+                                margin-left: .25rem !important
+
+                                i
+                                    font-weight: normal !important
+                                    font-size: 16px !important
+                                    color: #333333 !important
+                                    transition: color 0.2s ease-in
+
+                                    &:hover
+                                        color: #646464 !important
+                    
+                    // LISTA DE CONJUNTO DE DATOS
+                    .dataset-list
+                        .dataset-item
+                            border-bottom: 1px solid #D1D1D1 !important
+
+                            &:last-child
+                                padding-bottom: 20px !important
+                                margin-bottom: 20px !important
+                            
+                            .dataset-content
+                                h2
+                                    color: #333333 !important
+                                
+                                div
+                                    font-family: 'Roboto', sans-serif
+                                    color: #646464 !important
+                        
+                        .dataset-resources
+                            font-family: 'Roboto', sans-serif
+
+                            li
+                                a
+                                    padding: 4px 12px
+                                    border-radius: 100px
+                                    font-weight: 500 !important
+
+                                    &:hover
+                                        background-color: #13365C
+                                        transition: background-color 0.2s ease-in !important
+
+
+                                
+
+
+
+
+.module-footer
+    display: none !important
+
+.remove
+    font-weight: normal !important
