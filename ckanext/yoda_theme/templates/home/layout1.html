@@ -1,29 +1,35 @@
 <div role="main">
-    <div style="background-color: white;">
-      <div class="container">
-        <h1>
-            Bienvendio al portal YODA
-        </h1>
-        <div class="row row1">
-            <div class="col-md-12">
-            </hr>
-                <p>
-                    YODA proporcina datos para el desarrollo de aplicaciones de ciudades inteligentes (e.g, datos de meteorología, ocupación de las ciudades). 
-                    El portal de datos en abierto incluye fuentes de datos con información modelada siguiendo el estándar NGSI-LD  (Next Generation Service Interface with Linked Data) y compatible con los FIWARE Smart Data Models.
-                    Los datoos publicados incluyen metadatos compatibles con el perfil Data Catalog Vocabulary Application Profile (DCAT-AP) v2.0.1. Además, sus datasets pueden ser harvesteados por otros portales a través del protocolo Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH) versión 2.
-                </p>
-                <br>            
-              </div>
+  <div style="background-color: white;">
+    <div class="container">
+      <h1>
+        Bienvendio al portal YODA
+      </h1>
+      <div class="col-container">
+        <div class="col-md-12">
+          </hr>
+          <p>
+            YODA proporcina datos para el desarrollo de aplicaciones de ciudades inteligentes (e.g, datos de
+            meteorología,
+            ocupación de las ciudades).
+            El portal de datos en abierto incluye fuentes de datos con información modelada siguiendo el estándar
+            NGSI-LD
+            (Next Generation Service Interface with Linked Data) y compatible con los FIWARE Smart Data Models.
+            Los datoos publicados incluyen metadatos compatibles con el perfil Data Catalog Vocabulary Application
+            Profile
+            (DCAT-AP) v2.0.1. Además, sus datasets pueden ser harvesteados por otros portales a través del protocolo
+            Open
+            Archives Initiative Protocol for Metadata Harvesting (OAI-PMH) versión 2.
+          </p>
+          <br>
         </div>
-        <div class="row row2">
-            <div class="col-md-12">
-                {% block search %}
-                  {% snippet 'home/snippets/search.html' %}
-                {% endblock %}
-            </div>
+
+        <div class="col-md-12">
+          {% block search %}
+          {% snippet 'home/snippets/search.html' %}
+          {% endblock %}
         </div>
-        <br>
       </div>
+      <br>
     </div>
   </div>
-  
+</div>

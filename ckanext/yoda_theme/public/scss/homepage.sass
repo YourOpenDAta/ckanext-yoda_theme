@@ -1,112 +1,74 @@
 .homepage
-    background: black !important
-    color: red !important
+    background: white !important
+    color: #333333 !important
     min-height: calc(100% - 410px) !important
 
     div[role=main]
         padding: 0 !important
         min-height: calc(100vh - 405px) !important
 
-        .hero
-            background: white !important
-            color: #333333 !important
-            padding-bottom: 0 !important
+        .container
 
-            .container
-                .row1
-                    .col1
+            h1
+                margin-top: 1rem !important
+            
+            .col-container
+                display: flex
+                justify-content: space-between
+
+                .col-md-12
+                    width: fit-content
+                    padding: 0
+                    
+                    // col1
+                    p
+                        display: block
+                        font-famisly: 'Roboto', sans-serif
+                        max-width: 62ch
+                        margin: 0
+                        padding-top: 1rem
+                        margin-right: 4rem
+                    
+                    //col2
+                    .module
+                        padding: 0
+                        margin: 0
+                        border: none
+                        border-radius: none !important
+                        box-shadow: none !important
+                        -webkit-box-shadow: none !important
+
                         .module-content
-                            padding-top: 0 !important
-                            padding-left: 0 !important
-
-                        .box
-                            border: 1px solid white !important
-                            box-shadow: none !important
-                            -webkit-box-shadow: none !important
-
-                            div
-                                // texto por defecto
-                                h1
-                                    display: none
-
-                                p
-                                    // display: none
-                                
-                                // texto personalizado para YODA pintado desde main.js
-                                .landing-title
-                                    display: block
-                                    margin-top: 1rem !important
-                                
-                                .landing-text
-                                    display: block
-                                    font-family: 'Roboto', sans-serif
-                                    max-width: 62ch
-
-                                    @media (max-width: 1202px)
-                                        max-width: 62ch
-
-                            section
-                                display: none !important
-
-                                h2
-                                    display: none !important
-
-                                a
-                                    display: none !important
-
-                                    img
-                                        display: none !important
-
-                    .col2
-                        position: static !important
-
-                        .box
-                            border: 1px solid white !important
-                            border-radius: none !important
-                            box-shadow: none !important
-                            -webkit-box-shadow: none !important
-
-                        .module-search
+                            background: white !important
+                            color: #333333 !important
                             padding: 0 !important
-                            margin: 0 !important
-                            border: none !important
+                            padding-bottom: 1.5rem !important
 
-                            border: 1px solid white !important
-                            border-radius: none !important
-                            box-shadow: none !important
-                            -webkit-box-shadow: none !important
+                            h3
+                                padding-bottom: 1.25rem !important
 
-                            .module-content
-                                background: white !important
-                                color: #333333 !important
-                                padding: 0 !important
-                                padding-bottom: 1.5rem !important
+                            .search-input
+                                #field-main-search
+                                    padding: 16px 24px !important
+                                    border: 1px solid #333333 !important
+                                    border-radius: 2px !important
+                                    font-family: 'Roboto', sans-serif
 
-                                h3
-                                    padding-bottom: 1.25rem !important
+                                    &:focus
+                                        box-shadow: 0px 0px 0px 5.5px rgba(199, 213, 224, 1) !important
 
-                                .search-input
-                                    #field-main-search
-                                        padding: 16px 24px !important
-                                        border: 1px solid #333333 !important
-                                        border-radius: 2px !important
-                                        font-family: 'Roboto', sans-serif
+                                .form-control
+                                    color: transparent !important
 
-                                        &:focus
-                                            box-shadow: 0px 0px 0px 5.5px rgba(199, 213, 224, 1) !important
+                                button
+                                    margin-top: -10px !important
 
-                                    .form-control
-                                        color: transparent !important
+                                    i
+                                        font-size: 18px
+                                        color: #8B8B8B !important
 
-                                    button
-                                        margin-top: -10px !important
-
-                                        i
-                                            font-size: 18px
-                                            color: #8B8B8B !important
-
-                                            &:hover
-                                                color: #333333 !important
+                                        &:hover
+                                            color: #333333 !important
 
                         .tags
                             background-color: white !important
@@ -132,28 +94,3 @@
                                 &:hover
                                     background: #ECF1F5 !important
                                     color: #333333 !important
-
-        .main
-            background: white !important
-            color: #333333 !important
-            min-height: calc(100vh - 405px) !important
-            padding: 0 !important
-            margin: 0 !important
-
-            .container
-                .row2
-                    display: none
-
-                .row
-                    .col1
-                        .box
-                            .group-list
-                                display: none !important
-                                visibility: hidden
-
-
-.box
-    border: 1px solid white !important
-    border-radius: none !important
-    box-shadow: none !important
-    -webkit-box-shadow: none !important
