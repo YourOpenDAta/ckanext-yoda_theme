@@ -57,6 +57,46 @@ To install ckanext-yoda_theme:
      sudo service apache2 reload
 
 
+**INSTALL FRONTEND DEPENDENCES:** The front end stylesheets are written using Sass (this depends on [Node.js](https://nodejs.org/en/) and occasionally [Ruby](https://www.ruby-lang.org/es/documentation/installation/#apt) being installed on the system).
+
+
+To install Sass run:
+    
+     npm install -g sass
+
+
+To compile Sass install the following VSCode plugins:
+1. Sass:
+
+     syler.sass-indented
+2. Live Sass Compiler. (_Don't forget to run it while coding_):
+
+     glenn2223.live-sass
+
+To compile Sass and save the CSS output in a different folder, go to VSCode [settings](https://code.visualstudio.com/docs/getstarted/settings) and open settings.json for copy:
+    
+     "liveSassCompile.settings.formats": [
+        {
+          "extensionName": ".css",
+          "format": "compressed",
+          "savePath": "~/css/"
+        }
+    ]
+
+The result will be the next **file structure** located in the public directory:
+
+     sass/
+        css/
+          main.css
+          main.css.map
+     main.sass
+
+Finaly, when you already end coding please run:
+    
+     sass ckanext/yoda_theme/public/scss/main sass ckanext/yoda_theme/public/scss/css/main.css
+
+This will remove the css and css.map stylesheets, and keep only the main.css and main.css.map stylesheet. These are the only two stylesheets needed for development.
+
 ## Config settings
 
 None at present
