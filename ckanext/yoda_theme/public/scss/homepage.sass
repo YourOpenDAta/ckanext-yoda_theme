@@ -8,10 +8,6 @@
         min-height: calc(100vh - 405px) !important
 
         .container
-
-            h1
-                margin-top: 1rem !important
-            
             .col-container
                 display: flex
                 justify-content: space-between
@@ -19,14 +15,17 @@
                 .col-md-12
                     width: fit-content
                     padding: 0
+
+                    h1
+                        margin-top: 0 !important
+                        padding-bottom: 1.25rem !important
                     
                     // col1
                     p
                         display: block
-                        font-famisly: 'Roboto', sans-serif
-                        max-width: 62ch
+                        font-family: 'Roboto', sans-serif
+                        max-width: 62ch !important
                         margin: 0
-                        padding-top: 1rem
                         margin-right: 4rem
                     
                     //col2
@@ -45,6 +44,7 @@
                             padding-bottom: 1.5rem !important
 
                             h3
+                                font-size: 28px
                                 padding-bottom: 1.25rem !important
 
                             .search-input
