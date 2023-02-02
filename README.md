@@ -93,7 +93,7 @@ The result will be the next **file structure** located in the public directory:
 
 Finaly, when you already end coding please run:
     
-     sass ckanext/yoda_theme/public/scss/main sass ckanext/yoda_theme/public/scss/css/main.css
+     sass ckanext/yoda_theme/public/scss/main.sass ckanext/yoda_theme/public/scss/css/main.css
 
 This will remove the css and css.map stylesheets, and keep only the main.css and main.css.map stylesheet. These are the only two stylesheets needed for development.
 

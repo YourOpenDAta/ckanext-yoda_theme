@@ -1,5 +1,5 @@
 .account-masthead {
-  background: white !important;
+  background: #f4f4f4 !important;
 }
 .account-masthead .list-unstyled li {
   border: none !important;
@@ -23,7 +23,7 @@
 .navbar {
   background: white !important;
   color: #333333 !important;
-  padding-bottom: 8rem !important;
+  padding-bottom: 0 !important;
   border: none !important;
 }
 .navbar .container #main-navigation-toggle {
@@ -187,10 +187,11 @@
 }
 
 .site-footer {
-  background: white !important;
+  background: #f4f4f4 !important;
   margin-top: 12.5rem !important;
   border-top: 1px solid #acacac;
   max-width: 100vw !important;
+  color: black !important;
 }
 .site-footer .container .row {
   display: flex;
@@ -774,16 +775,12 @@
 #content .wrapper .module .module-content .page-heading {
   display: none;
 }
-#content .wrapper .module .module-content p {
-  max-width: 85ch !important;
-}
 #content .wrapper .module .module-content .about-title {
   display: block;
 }
 #content .wrapper .module .module-content .about-text {
   display: block;
   font-family: "Roboto", sans-serif;
-  max-width: 85ch;
 }
 
 .main #content.container .row.wrapper .secondary .module .module-content p {

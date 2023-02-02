@@ -6,7 +6,7 @@
           {% block footer_nav %}
             <ul class="list-unstyled">
               {% block footer_links %}
-                <li><a href="{{ h.url_for(controller='home', action='about') }}">{{ _('About {0}').format(g.site_title) }}</a></li>
+                <li><a href="{{ h.url_for(controller='home', action='about') }}">Nota Legal</a></li>
               {% endblock %}
             </ul>
             <ul class="list-unstyled">
@@ -18,10 +18,8 @@
         </div>
         <div class="col-md-8 footer-links">
           <ul class="list-unstyled">
-            <li><a href="#">Nota legal</a></li>
-          </ul>
-          <ul class="list-unstyled">
-            <li><img src="{{ h.url_for_static_or_external('/cef_logo.png') }}" alt="Co-financed by the Connecting Europe Facility of the European Union"></a></li>
+            <li><img src="/images/cef_logo.png" width="250" alt="Co-financed by the Connecting Europe Facility of the European Union"></a></li>
+            <li style="text-align:center;">Action nº 2019-ES-IA-0121</li>
           </ul>
         </div>
       </div>
