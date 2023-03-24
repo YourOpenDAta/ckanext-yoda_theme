@@ -89,7 +89,30 @@
 		{{ h.build_nav_main(
 		    ('dataset.search', _('Datasets')),
 		    ('organization.index', _('Organizations')),
-		    ('home.about', 'Nota Legal') ) }}
+		    ('home.about', _('Nota Legal')), 
+        ) }}
+          <li style="padding-left: 16px; padding-top: 6px;"><select id="cambioIdioma" onchange="cambioIdioma()">
+            <option value="" selected>{%trans%}Idioma{%endtrans%}</option>
+            <option value="es" >{%trans%}Español{%endtrans%}</option>
+            <option value="en">{%trans%}Ingles{%endtrans%}</option>
+          </select>
+          </li>
+    
+          <!-- <li><a href="../" + window.location.pathname >Español</a></li>
+          <li><a href="../en/" + window.location.pathname>Ingles</a></li> -->
+
+          <script>
+            function cambioIdioma() {
+              var idioma = document.getElementById("cambioIdioma").value;
+              console.log(idioma);
+              if (idioma == "en"){
+                window.location.pathname = "/" + idioma + "/";
+              } else if (idioma == "es"){
+                window.location.pathname = "/";
+              } else {}
+            }
+          </script>
+
 	    {% endblock %}
         </ul>
       </nav>

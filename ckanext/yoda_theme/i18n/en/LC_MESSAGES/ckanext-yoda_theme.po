@@ -1,0 +1,430 @@
+# English translations for ckanext-yoda_theme.
+# Copyright (C) 2023 ORGANIZATION
+# This file is distributed under the same license as the ckanext-yoda_theme
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ckanext-yoda_theme 0.0.1\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-03-23 12:37+0000\n"
+"PO-Revision-Date: 2023-03-23 12:38+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ckanext/yoda_theme/templates/footer.html:9
+#: ckanext/yoda_theme/templates/header.html:92
+msgid "Nota Legal"
+msgstr "Legal Note"
+
+#: ckanext/yoda_theme/templates/header.html:9
+msgid "Sysadmin settings"
+msgstr ""
+
+#: ckanext/yoda_theme/templates/header.html:11
+msgid "Admin"
+msgstr ""
+
+#: ckanext/yoda_theme/templates/header.html:16
+msgid "View profile"
+msgstr ""
+
+#: ckanext/yoda_theme/templates/header.html:23
+#, python-format
+msgid "Dashboard (%(num)d new item)"
+msgid_plural "Dashboard (%(num)d new items)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ckanext/yoda_theme/templates/header.html:27
+msgid "Dashboard"
+msgstr ""
+
+#: ckanext/yoda_theme/templates/header.html:33
+#: ckanext/yoda_theme/templates/header.html:35
+msgid "Profile settings"
+msgstr ""
+
+#: ckanext/yoda_theme/templates/header.html:40
+#: ckanext/yoda_theme/templates/header.html:42
+msgid "Log out"
+msgstr ""
+
+#: ckanext/yoda_theme/templates/header.html:49
+msgid "Account"
+msgstr ""
+
+#: ckanext/yoda_theme/templates/header.html:52
+msgid "Log in"
+msgstr ""
+
+#: ckanext/yoda_theme/templates/header.html:54
+msgid "Register"
+msgstr ""
+
+#: ckanext/yoda_theme/templates/header.html:69
+msgid "Toggle navigation"
+msgstr ""
+
+#: ckanext/yoda_theme/templates/header.html:90
+msgid "Datasets"
+msgstr ""
+
+#: ckanext/yoda_theme/templates/header.html:91
+msgid "Organizations"
+msgstr ""
+
+#: ckanext/yoda_theme/templates/header.html:95
+msgid "Idioma"
+msgstr "Language"
+
+#: ckanext/yoda_theme/templates/header.html:96
+msgid "Español"
+msgstr "Spanish"
+
+#: ckanext/yoda_theme/templates/header.html:97
+msgid "Ingles"
+msgstr "English"
+
+#: ckanext/yoda_theme/templates/header.html:122
+msgid "Search Datasets"
+msgstr ""
+
+#: ckanext/yoda_theme/templates/header.html:123
+msgid "Search"
+msgstr ""
+
+#: ckanext/yoda_theme/templates/header.html:123
+msgid "Search datasets"
+msgstr ""
+
+#: ckanext/yoda_theme/templates/header.html:124
+msgid "Submit"
+msgstr ""
+
+#: ckanext/yoda_theme/templates/home/about.html:3
+#: ckanext/yoda_theme/templates/home/about.html:12
+msgid "About"
+msgstr ""
+
+#: ckanext/yoda_theme/templates/home/layout1.html:7
+msgid "Bienvenido al portal YODA"
+msgstr "Welcome to the YODA portal"
+
+#: ckanext/yoda_theme/templates/home/layout1.html:11
+msgid ""
+"YODA proporcina datos para el desarrollo de aplicaciones de ciudades "
+"inteligentes (e.g, datos de meteorología, ocupación de las ciudades). El "
+"portal de datos en abierto incluye fuentes de datos con información "
+"modelada siguiendo el estándar NGSI-LD (Next Generation Service Interface"
+" with Linked Data) y compatible con los FIWARE Smart Data Models. Los "
+"datoos publicados incluyen metadatos compatibles con el perfil Data "
+"Catalog Vocabulary Application Profile (DCAT-AP) v2.0.1. Además, sus "
+"datasets pueden ser harvesteados por otros portales a través del "
+"protocolo Open Archives Initiative Protocol for Metadata Harvesting (OAI-"
+"PMH) versión 2."
+msgstr ""
+"YODA provides data for the development of smart city applications (e.g., "
+"weather data, city occupancy). The open data portal includes data sources"
+"with information modeled according to the NGSI-LD (Next Generation Service"
+"Interface with Linked Data) standard and compatible with FIWARE Smart Data "
+"Models. The published data includes metadata compatible with the Data Catalog "
+"Vocabulary Application Profile (DCAT-AP) v2.0.1. In addition, its datasets can "
+"be harvested by other portals through the Open Archives Initiative Protocol "
+"for Metadata Harvesting (OAI-PMH) version 2."
+
+#: ckanext/yoda_theme/templates/home/snippets/about_text.html:2
+msgid "Nota legal"
+msgstr "Legal Note"
+
+#: ckanext/yoda_theme/templates/home/snippets/about_text.html:3
+msgid "1. Datos identificativos del titular del sitio web"
+msgstr "1. Identificative data from the website owner"
+
+#: ckanext/yoda_theme/templates/home/snippets/about_text.html:5
+msgid ""
+"La presente página web, <a href=\"https://portal-yoda.dit.upm.es\">https"
+"://portal-yoda.dit.upm.es</a> (en adelante, “la web”, “el sitio web”, y/o"
+" YODA), ha sido diseñada, elaborada, creada y puesta a disposición del "
+"público por la Universidad Politécnica de Madrid, en adelante YODA, con "
+"domicilio social en Avenida de Ramiro de Maeztu, N.º 7, 28040, Madrid, "
+"España y con N.I.F. Q-2818015-F."
+msgstr ""
+"The current website, <a href=\"https://portal-yoda.dit.upm.es\">https"
+"://portal-yoda.dit.upm.es</a> (hereinafter referred to as the website"
+", and/or YODA), has been designed, developed, created and made available to the "
+" public by the Universidad Politécnica de Madrid, hereinafter referred to as YODA, with "
+" registered office at Avenida de Ramiro de Maeztu, N.º 7, 28040, Madrid, "
+"Spain and with N.I.F. Q-2818015-F."
+
+#: ckanext/yoda_theme/templates/home/snippets/about_text.html:7
+msgid "2. Objeto"
+msgstr "2. Object"
+
+#: ckanext/yoda_theme/templates/home/snippets/about_text.html:9
+msgid ""
+"El presente documento de Aviso Legal tiene por objeto establecer las "
+"condiciones y pautas de acceso y uso por parte de los usuarios de la web."
+" El simple acceso, uso y navegación por parte del usuario de la web "
+"implican la aceptación expresa y sin reservas por parte del usuario del "
+"presente documento, declarando el usuario que ha leído, conoce y "
+"comprende el presente Aviso Legal y que asume todas las obligaciones que "
+"le incumben como usuario de la web."
+msgstr ""
+"The purpose of this Legal Notice document is to establish the "
+"conditions and guidelines for access and use by users of the website."
+"The simple access, use and browsing by the user of the website "
+" implies the express and unreserved acceptance by the user of the "
+" of the present document, the user declaring that he/she has read, knows and "
+"understands the present Legal Notice and that he/she assumes all the obligations that "
+" incumbent upon him/her as a user of the website."
+
+#: ckanext/yoda_theme/templates/home/snippets/about_text.html:11
+msgid "3. Condiciones de uso"
+msgstr "3. Use conditions"
+
+#: ckanext/yoda_theme/templates/home/snippets/about_text.html:13
+msgid ""
+"Tal y como establece el artículo 8 de la Ley 18/2015, de 9 de julio, la "
+"reutilización de la información de los organismos del sector público, el "
+"usuario de la web y de la información que en ella se ofrece y exhibe "
+"deberá cumplir las siguientes condiciones:"
+msgstr ""
+"As established in article 8 of Law 18/2015 of 9 July 2015, the "
+"re-use of the information of public sector bodies, the "
+"user of the website and of the information offered and displayed therein "
+"must comply with the following conditions:"
+
+#: ckanext/yoda_theme/templates/home/snippets/about_text.html:15
+msgid "Que el contenido de la información no sea alterado."
+msgstr "That the content of the information is not altered."
+
+#: ckanext/yoda_theme/templates/home/snippets/about_text.html:16
+msgid "Que no se desnaturalice el sentido de la información."
+msgstr "That the meaning of the information should not be distorted."
+
+#: ckanext/yoda_theme/templates/home/snippets/about_text.html:17
+msgid "Que se cite la fuente original."
+msgstr "That the original source must be cited."
+
+#: ckanext/yoda_theme/templates/home/snippets/about_text.html:18
+msgid "Que se mencione la fecha de la última actualización."
+msgstr "That the date of the last update is mentioned."
+
+#: ckanext/yoda_theme/templates/home/snippets/about_text.html:19
+msgid ""
+"Cuando la información contenga datos de carácter personal, la finalidad o"
+" finalidades concretas para las que es posible la reutilización futura de"
+" los datos."
+msgstr ""
+"When the information contains personal data, the specific purpose or purposes"
+"for which the information may be re-used in the future."
+
+#: ckanext/yoda_theme/templates/home/snippets/about_text.html:20
+msgid ""
+"Cuando la información, aun siendo facilitada de forma disociada, "
+"contuviera elementos suficientes que pudieran permitir la identificación "
+"de revertir el procedimiento de disociación mediante la adición de nuevos"
+" datos obtenidos de otras fuentes."
+msgstr ""
+"When the information, even if provided in an unbundled form, "
+"contained sufficient elements that could allow the identification "
+"to reverse the disassociation procedure by adding new data obtained from other sources."
+
+#: ckanext/yoda_theme/templates/home/snippets/about_text.html:22
+msgid ""
+"Se prohíbe expresamente la inserción, enlace o mención de cualquier "
+"publicidad, directa o indirectamente, en la web. Queda terminantemente "
+"prohibido el uso de la web con fines ilícitos, contrarios al orden "
+"público o a las buenas costumbres, lesivo para los derechos de terceros o"
+" que puedan dañar, inutilizar, modificar, alterar o impedir el normal "
+"funcionamiento de la web. El titular de la web colaborará con las "
+"autoridades competentes para investigar estos hechos y ejercitará cuantas"
+" acciones legales estime convenientes en relación con los mismos. El "
+"usuario responderá de todos los daños y perjuicios que pueda ocasionar "
+"tanto a YODA como a terceros como consecuencia del incumplimiento de lo "
+"antedicho."
+msgstr ""
+"The insertion, link or mention of any "
+"advertising, directly or indirectly, on the site it is strictly forbidden. "
+"It is absolutely forbidden the usage of the website for illicit purposes, contrary to public "
+"order or good customs, harmful to the rights of third parties or "
+"that may damage, render useless, modify, alter or impede the normal "
+"operation of the website. The owner of the website will collaborate with the "
+"competent authorities to investigate these facts and will exercise any "
+"legal actions it deems appropriate in relation to the same. The "
+"user will be liable for all damages that may be caused "
+"both to YODA and to third parties as a result of non-compliance with the "
+"aforementioned."
+
+#: ckanext/yoda_theme/templates/home/snippets/about_text.html:29
+msgid "4. Fuentes de información"
+msgstr "4. Information sources"
+
+#: ckanext/yoda_theme/templates/home/snippets/about_text.html:31
+msgid ""
+"La información contenida en la web procederá de las siguientes fuentes de"
+" datos, lista que podrá ser ampliada posteriormente y que el usuario "
+"tendrá que tener presente, de cara a conocer las condiciones propias que "
+"aplican en el uso de la información procedente de cada una de ellas "
+"(fijada por cada una de las fuentes de obtención):"
+msgstr ""
+"The information contained in the website will come from the following data sources. "
+"This list may be extended at a later date, and the user "
+"will have to bear it in mind, in order to be aware of the conditions "
+"apply to the use of the information from each of them "
+"(set by each of the sources of collection):"
+
+#: ckanext/yoda_theme/templates/home/snippets/about_text.html:38
+msgid "5. Exención de responsabilidad"
+msgstr "5. Exemption from liability"
+
+#: ckanext/yoda_theme/templates/home/snippets/about_text.html:40
+msgid ""
+"YODA no será responsable del uso o interpretación que el usuario realice "
+"de la información alojada en la web, ni tampoco será responsable de los "
+"daños o perjuicios provocados por el uso de la información reutilizada. "
+"YODA tampoco será responsable de la veracidad y exactitud de la "
+"información alojada en la web, por lo que se aconseja al usuario que "
+"acuda a las fuentes originales de información. Asimismo, YODA no se hace "
+"responsable de los daños o perjuicios de cualquier tipo producidos al "
+"Usuario que traigan causa de fallos o desconexiones en las redes de "
+"telecomunicaciones que produzcan la suspensión, cancelación o "
+"interrupción del servicio del Portal. YODA tampoco será responsable de "
+"los enlaces y aplicaciones de terceros que puedan estar insertos en la "
+"web."
+msgstr ""
+"YODA shall not be responsible for the use or interpretation that the user makes "
+" of the information hosted on the website, nor shall YODA be liable for any "
+"damages or harm caused by the use of the reused information. "
+"YODA shall not be responsible for the truthfulness and accuracy of the information "
+" hosted on the website, and the user is therefore advised to "
+"refer to the original sources of information. Furthermore, YODA is not "
+"responsible for damages of any kind caused to the "
+"User that are caused by faults or disconnections in telecommunications "
+"telecommunications networks that cause the suspension, cancellation or "
+"interruption of the Portal service. YODA will also not be responsible for "
+"links and third party applications that may be inserted in the "
+"website."
+
+#: ckanext/yoda_theme/templates/home/snippets/about_text.html:48
+msgid "6. Duración y modificación"
+msgstr "6. Duration and modification"
+
+#: ckanext/yoda_theme/templates/home/snippets/about_text.html:50
+msgid ""
+"El presente documento de Aviso Legal tendrá un periodo de validez "
+"indefinido, en tanto no sea modificado. No obstante, YODA se reserva el "
+"derecho de modificar tanto la presentación, configuración y contenido de "
+"la web, como el presente documento, sin necesidad de avisar previamente "
+"de los cambios o modificaciones a realizar. El acceso, uso y navegación "
+"que el usuario realice tras la entrada en vigor de los posibles cambios o"
+" modificaciones, supondrán la aceptación de los mismos por parte del "
+"usuario."
+msgstr ""
+"This Legal Notice document shall be valid for an indefinite period of time "
+" indefinitely, as long as it is not modified. However, YODA reserves the right "
+"to modify both the presentation, configuration and content of "
+"the website, as well as this document, without the need to give prior notice "
+"of the changes or modifications to be made. The access, use and browsing "
+"that the user carries out after the entry into force of the possible changes or "
+"modifications, will imply the acceptance of the same on the part of the "
+"user."
+
+#: ckanext/yoda_theme/templates/home/snippets/about_text.html:56
+msgid "7. Enlaces"
+msgstr "7. Links"
+
+#: ckanext/yoda_theme/templates/home/snippets/about_text.html:58
+msgid ""
+"En el caso de que en la web se dispusieran enlaces o hipervínculos hacia "
+"otras webs o aplicaciones, YODA no ejercerá ningún tipo de control sobre "
+"dichos sitios y contenidos. En ningún caso YODA asumirá responsabilidad "
+"alguna por los contenidos de enlace perteneciente a un sitio web o "
+"aplicación ajena, ni garantizará la disponibilidad técnica, calidad, "
+"fiabilidad, exactitud, amplitud, veracidad, validez y constitucionalidad "
+"de cualquier contenido o información incluida en ninguno de dichos "
+"hipervínculos u otros sitios de Internet. Igualmente, la inclusión de "
+"estas conexiones externas no implicará ningún tipo de asociación, fusión "
+"o participación con las entidades conectadas. Recae por tanto en el "
+"usuario, la responsabilidad de decidir acceder a dichos enlaces o "
+"aplicaciones."
+msgstr ""
+"In the event that the website contains links or hyperlinks to other "
+"websites or applications, YODA shall not exercise any control over "
+"such sites and content. Under no circumstances will YODA assume any responsibility "
+"for the contents of a link belonging to a third party website or "
+"third party application, nor does it guarantee the technical availability, quality, "
+"reliability, accuracy, comprehensiveness, truthfulness, validity and constitutionality "
+"of any content or information contained in any such "
+"hyperlinks or other Internet sites. Likewise, the inclusion of "
+"such external links shall not imply any association, merger "
+"or participation with the linked entities. It is therefore the "
+"user, the responsibility for deciding to access such links or "
+"applications."
+
+#: ckanext/yoda_theme/templates/home/snippets/about_text.html:61
+msgid "8. Propiedad Industrial e Intelectual"
+msgstr "8. Industrial and Intelectual Property"
+
+#: ckanext/yoda_theme/templates/home/snippets/about_text.html:63
+msgid ""
+"YODA es titular de todos los derechos de propiedad intelectual e "
+"industrial de su página web, así como de los elementos contenidos en la "
+"misma (a título enunciativo: imágenes, fotografías, sonido, audio, vídeo,"
+" software o textos; logotipos, combinaciones de colores, estructura y "
+"diseño, selección de materiales usados, programas de ordenador necesarios"
+" para su funcionamiento, acceso y uso, etc.), o bien de sus licenciantes."
+" Quedan expresamente prohibidas la reproducción, la distribución y la "
+"comunicación pública de los contenidos de esta página web, con fines "
+"comerciales, en cualquier soporte y por cualquier medio técnico, sin la "
+"autorización de YODA."
+msgstr ""
+"YODA is the owner of all intellectual and industrial rights"
+" of its website, as well as of the elements contained therein" 
+"(including but not limited to: images, photographs, sound, audio, video, "
+"software or texts; logos, colour combinations, structure and "
+"design, selection of materials used, computer programs necessary for its operation, access and use "
+"for its operation, access and use, etc.), or its licensors."
+" The reproduction, distribution and public "
+"communication of the contents of this website, for commercial "
+"purposes, is strictly forbidden in any medium and by any technical means, without the "
+"authorisation of YODA."
+
+#: ckanext/yoda_theme/templates/home/snippets/about_text.html:65
+msgid "9. Ley aplicable y jurisdicción"
+msgstr "9. Applicable law and jurisdiction"
+
+#: ckanext/yoda_theme/templates/home/snippets/about_text.html:67
+msgid ""
+"Para cuantas cuestiones se susciten sobre la interpretación, aplicación y"
+" cumplimiento de este Aviso Legal, así como de las reclamaciones que "
+"puedan derivarse en relación con el mismo, todas las partes "
+"intervinientes se someten a los Juzgados y Tribunales de Madrid "
+"renunciando de forma expresa a cualquier otro fuero que pudiera "
+"corresponderles. Asimismo, se informa de que la ley aplicable será "
+"únicamente la ley española."
+msgstr ""
+"For any questions that may arise regarding the interpretation, application and"
+"compliance with this Legal Notice as well as any claims "
+"that may arise in relation to the same, all the "
+"intervening parties submit themselves to the Courts and Tribunals of Madrid "
+"expressly waiving any other jurisdiction to which they may "
+"correspond to them. Likewise, it is hereby informed that the applicable law will be "
+"solely Spanish law.
+
+#: ckanext/yoda_theme/templates/organization/snippets/helper.html:4
+msgid "What are Organizations?"
+msgstr ""
+
+#: ckanext/yoda_theme/templates/organization/snippets/helper.html:8
+msgid "Los datasets en YODA se agrupan por organizaciones temáticas"
+msgstr "The YODA datasets are grouped by tematic organizations"
+
