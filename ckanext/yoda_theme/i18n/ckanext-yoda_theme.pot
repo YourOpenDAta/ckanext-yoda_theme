@@ -89,7 +89,7 @@ msgid "Español"
 msgstr ""
 
 #: ckanext/yoda_theme/templates/header.html:97
-msgid "Ingles"
+msgid "Inglés"
 msgstr ""
 
 #: ckanext/yoda_theme/templates/header.html:122
